@@ -13,6 +13,20 @@
         height: 100%;
         width: 100%;
       }
+
+      @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+      #context {
+        position: absolute;
+        top: 55px;
+        left: 70px;
+        z-index: 5;
+        background-color: rgba(233, 114, 170, 0.8);
+        border-radius: 8px;
+        padding: 10px 10px 10px 10px;
+        font-family: 'Roboto Condensed', sans-serif;
+
+      }
+
     </style>
 
     <link rel="stylesheet" href="https://js.arcgis.com/4.22/esri/themes/light/main.css">
@@ -167,5 +181,9 @@
   </head>
   <body>
     <div id="viewDiv"></div>
+    <div id="context">
+      <h1>5 Places in 5 Years</h1>
+      <p>This map points the 5 locations myself and by boyfriend have lived over our 5 years together. <br> Happy Valentines Day! </p>
+    </div>
   </body>
 </html>
