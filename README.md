@@ -17,3 +17,20 @@ https://fleming.maps.arcgis.com/home/item.html?id=c69c3b38594c45c683bbb7a18738ac
 
 ### REST API no Token
 https://services1.arcgis.com/pMeXRvgWClLJZr3s/arcgis/rest/services/wk4treelayer/FeatureServer?token=
+
+
+## Submit a new Token for pl2
+https://developers.arcgis.com/documentation/mapping-apis-and-services/security/oauth-2.0/
+
+
+## GitHub Tutorial Link
+
+### Tutorial 1
+https://raineks.github.io/pl2/tutorial1.html
+
+### Tutorial 2
+https://raineks.github.io/pl2/tutorial2.html
+
+## Valentines Day Web Map
+
+
