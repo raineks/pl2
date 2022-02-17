@@ -1,6 +1,13 @@
 # pl2
 Practical Lab 2 ArcGIS Online
 
+# Week 3 List 
+
+## GeoJSON Web Map Link
+https://fleming.maps.arcgis.com/apps/mapviewer/index.html?webmap=2d164b915a794f57b26ffff68ec422db
+
+# Week 4 List
+
 ## 3 Links to Hosted Feature Layer
 
 ### Developer's Page
