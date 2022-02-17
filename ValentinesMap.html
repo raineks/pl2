@@ -46,20 +46,25 @@
         map.add(graphicsLayer);
 
         const point = { //Create a point
-        type: "point",
-        longitude: -89.23984467583034,
-        latitude: 48.38195566512432
+            type: "point",
+            longitude: -89.23984467583034,
+            latitude: 48.38195566512432
         };
         const simpleMarkerSymbol = {
             type: "simple-marker",
-            color: [#d11111],  
+            color: [226, 119, 40],  // Orange
             outline: {
-                color: [255, 255, 255], 
+                color: [255, 255, 255], // White
                 width: 1
             }
         };
 
-      });
+        const pointGraphic = new Graphic({
+            geometry: point,
+            symbol: simpleMarkerSymbol
+        });
+        graphicsLayer.add(pointGraphic);
+              });
     </script>
 
   </head>
