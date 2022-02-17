@@ -50,11 +50,7 @@
             longitude: -89.23984467583034,
             latitude: 48.38195566512432
         };
-        const point2 = {
-            type: "point",
-            longitude: -80.99079166990863,
-            latitude: 46.492605508932215
-        };
+
         const simpleMarkerSymbol = {
             type: "simple-marker",
             color: [209, 17, 17],  // Red for Valentines day
@@ -64,12 +60,32 @@
             }
         };
 
-        const pointGraphic = new Graphic({
-            geometry: point,
+        const pointGraphic1 = new Graphic({
+            geometry: point1,
             symbol: simpleMarkerSymbol
         });
-        graphicsLayer.add(pointGraphic);
+        graphicsLayer.add(pointGraphic1);
               });
+
+        const point2 = {
+          type: "point",
+          longitude: -80.99079166990863,
+          latitude: 46.492605508932215
+          };
+        const simpleMarkerSymbol = {
+              type: "simple-marker",
+              color: [209, 17, 17],  // Red for Valentines day
+              outline: {
+                  color: [255, 255, 255],
+                  width: 1
+              }
+        };
+        const pointGraphic2 = new Graphic({
+              geometry: point2,
+              symbol: simpleMarkerSymbol
+        });
+        graphicsLayer.add(pointGraphic2);
+
     </script>
 
   </head>
